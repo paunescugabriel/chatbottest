@@ -1,0 +1,95 @@
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */.fancybox-image,.fancybox-inner,.fancybox-nav,.fancybox-nav span,.fancybox-outer,.fancybox-skin,.fancybox-tmp,.fancybox-wrap,.fancybox-wrap iframe,.fancybox-wrap object{padding:0;margin:0;border:0;outline:0;vertical-align:top}.fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}.fancybox-inner,.fancybox-outer,.fancybox-skin{position:relative}.fancybox-skin{background:#f9f9f9;color:#444;text-shadow:none;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.fancybox-opened{z-index:8030}.fancybox-inner{overflow:hidden}.fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:15px;white-space:nowrap}.fancybox-iframe,.fancybox-image{display:block;width:100%;height:100%}.fancybox-image{max-width:100%;max-height:100%}#fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span{background-image:url(../images/fancybox_sprite.png)}#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:.8;cursor:pointer;z-index:8060}.fancybox-close,.fancybox-nav,.fancybox-nav span{cursor:pointer;z-index:8040}#fancybox-loading div{width:44px;height:44px;background:url(../images/fancybox_loading.gif) center center no-repeat}.fancybox-close{position:absolute;width:36px;height:36px}.fancybox-nav{position:absolute;top:0;width:40%;height:100%;text-decoration:none;background:url(../images/blank.gif);-webkit-tap-highlight-color:transparent}.fancybox-prev{left:0}.fancybox-next{right:0}.fancybox-nav span{position:absolute;top:50%;width:36px;height:34px;margin-top:-18px;visibility:hidden}.fancybox-prev span{left:10px;background-position:0 -36px}.fancybox-next span{right:10px;background-position:0 -72px}.fancybox-nav:hover span{visibility:visible}.fancybox-tmp{position:absolute;top:-99999px;left:-99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible!important}.fancybox-lock,.fancybox-lock body{overflow:hidden!important}.fancybox-lock{width:auto}.fancybox-lock-test{overflow-y:hidden!important}.fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:8010;background:url(../images/fancybox_overlay.png)}.fancybox-overlay-fixed{position:fixed;bottom:0;right:0}.fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll}.fancybox-title{visibility:hidden;font:400 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}.fancybox-opened .fancybox-title{visibility:visible}.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index:8050;text-align:center}.fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;padding:2px 20px;background:0 0;background:rgba(0,0,0,.8);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:700;line-height:24px;white-space:nowrap}.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}.fancybox-title-inside-wrap{padding-top:10px}.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;padding:10px;background:#000;background:rgba(0,0,0,.8)}@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5){#fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span{background-image:url(../images/fancybox_sprite.png);background-size:44px 152px}#fancybox-loading div{background-image:url(../images/fancybox_loading@2x.gif);background-size:24px 24px}}.fancybox-opened .fancybox-skin{-webkit-box-shadow:0 10px 25px rgba(0,0,0,.5);-moz-box-shadow:0 10px 25px rgba(0,0,0,.5);background:0 0!important;box-shadow:none!important;padding:0!important}.fancybox-close{top:5px;right:5px}.button-container{position:absolute;bottom:10%;width:100%;text-align:center}.aboneaza-te-postasul{background:#e31b22;border-radius:10px;padding:5px 50px;color:#fff}
+.setBackgroundForPostaRomana {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    padding: 4px;
+}
+.firstForNews {margin-bottom: 10px;}
+.firstForNews p {
+	font-size: 18px;
+	color: #e9292f;
+	font-weight: bold;
+}
+.word_of_courier {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 40px;
+    margin-bottom: 15px;
+    padding: 0 40px;
+}
+.text_popup p,
+.word_of_courier p {
+	margin: 0;
+}
+.text_popup {
+	padding: 0 15px;
+	margin-bottom: 7px;
+}
+.text_popup p {
+	font-size: 14px;
+	color: #e9292f;
+}
+.formularDeAbonare input {
+	background: #f3f3f3;
+	border: none;
+	width: 100%;
+	padding: 5px 5px;
+	margin-bottom: 10px;
+}
+.formularDeAbonare button {
+	padding: 5px 5px;
+	background: #e9292f;
+	border: 0;
+	outline: none;
+	color: #fff;
+	width: 100%;
+	display: block;
+}
+
+.modalBody,
+.modalHeader {border: none; /* padding: 0; */}
+.modalContent {border-radius: 0;}
+.setBackgroundForPostaRomana img {width: 100%;}
+button.close {
+	outline: none;
+}
+.close {
+	opacity: 1;
+	position: absolute;
+	right: 20px;
+	top: 21px;
+	font-size: 18px;
+	color: #e9292f;
+	z-index: 999;
+}
+.modal-dialog {margin: 130px auto;}
+/*.modalContent {
+	background: url("/cnpr-app/skins/images/specialborderpostaromana.png");
+	min-height: 160px;
+}*/
+@media(max-width: 1024px) {
+	.modal-dialog {margin: 130px auto;}
+}
+@media(max-width: 768px) {
+	.formularDeAbonare input {margin-bottom: 20px;}
+	.setBackgroundForPostaRomana img {height: 300px;}
+}
+@media(max-width:580px){#popup img{width:100%;height:auto}.aboneaza-te-postasul{font-size:12px;padding:5px 25px}}
+@media(max-width: 480px){
+	.setBackgroundForPostaRomana img {height: 350px;}
+}
+
+.text_popup #newsletter_response,
+.text_popup #fakeid
+{
+	font-size:12px;
+	margin: 0 -30px;
+}
+
+.newsletter_popup_submit
+{
+	margin-bottom: 10px;
+}
